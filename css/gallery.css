@@ -1,0 +1,42 @@
+body {
+	background: url(../images/tatooine.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	width :60%;
+	margin: 0 auto;
+	background : rgba (255, 255, 255, 0.8);
+	border-radius : 30px;
+	padding : 50px;
+}
+
+*{
+	font-family 	: "helvetica", sans-serif;
+}
+
+}
+	nav ul{
+	border 		: none;
+	list-style	: none; 
+	padding		: 0px
+}
+
+nav ul li{
+	border 		: none;
+	width 		: 20%;
+	text-align	:  center; 
+	display		: inline-block; /*puts nav in a row */
+}
+
+nav ul li:hover{  /*dynamic link when hover */
+	background	: white;
+}
+
+a {
+    text-decoration : none;
+    color : black;
+}
